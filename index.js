@@ -4,7 +4,7 @@
             const heartBg = document.getElementById('heartBg');
             const hearts = ['🐰', '🐥', '💎', '🐶', '🐼', '🐾', '🦋', '✨'];
             
-            for (let i = 0; i < 15; i++) {
+            for (let i = 0; i < 30; i++) {
                 const heart = document.createElement('div');
                 heart.className = 'floating-heart';
                 heart.textContent = hearts[Math.floor(Math.random() * hearts.length)];
